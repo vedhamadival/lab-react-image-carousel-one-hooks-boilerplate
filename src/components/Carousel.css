@@ -1,1 +1,54 @@
-/* write down the css for Carousel in this file */
+write down the css for Carousel in this file
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#Carousel{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imageCarousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#left-btn , #right-btn{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:10%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.437);
+}
+
+#centertext{
+    color: white;
+    width:90%;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 300px; */
+    font-size: 30px;
+}
+
+#left-btn{
+    left:0px;
+}
+
+#right-btn{
+    right:0px;
+}
